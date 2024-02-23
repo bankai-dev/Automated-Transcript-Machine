@@ -1,0 +1,15 @@
+version: '3'
+services:
+  whisper:
+    image: whisper-api:1.0  # Imagem Whisper criada
+    ports:
+      - "5000:5000"  # Porta do host
+
+  n8n:
+    image: n8n:1.0  # Imagem do n8n criada
+    ports:
+      - "5678:5678"  # Porta do Host
+    
+
+    
+
